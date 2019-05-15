@@ -37,7 +37,7 @@
                 <p>Trust is only a two-way desire when both parties are of equal power.</p>
                 <p>Everyone desires everyone else to be honest.</p>
                 <p>Desire for trust is inversely proportional to the balance of power.</p>
-                <p itemprop="author">Stephen Farrugia</p>
+                <p itemprop="author"><a href="mailto:sfarrugia@gmail.com">Stephen Farrugia</a></p>
             </main> 
         </article>
     </body>

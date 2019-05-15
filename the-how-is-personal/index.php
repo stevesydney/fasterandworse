@@ -32,7 +32,7 @@
                 <p>When someone trusts you to deliver, your only responsibility is to deliver.</p>
                 <p>The weight of the trust lays in your claim. You have to be very specific about what you will deliver. Articulate the smallest outputs of the mechanisms you are creating.</p>
                 <p>This leaves you open to creativity while holding you to your claim.</p>           
-                <p itemprop="author">Stephen Farrugia</p>
+                <p itemprop="author"><a href="mailto:sfarrugia@gmail.com">Stephen Farrugia</a></p>
             </main> 
         </article>
     </body>

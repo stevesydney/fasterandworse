@@ -40,7 +40,7 @@
                     <p>In a land of paradoxes where we create design systems and write a blog post about how they changed the way we work. A year later, web technologies have evolved and our obsolete design system is holding us back.</p>
                     <p>Our methods for code and design collaboration penalise any individual who attempts to achieve too much in one sitting. The iterations and pull requests must be small and readable so our colleagues can properly review them.</p>
                     <p>We're not stifling creativity in general, we're stifling the ability for an individual to solve interconnected problems in creative ways.</p>
-                    <p itemprop="author">Stephen Farrugia</p>
+                    <p itemprop="author"><a href="mailto:sfarrugia@gmail.com">Stephen Farrugia</a></p>
                 </main>
             </article>
         

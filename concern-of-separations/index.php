@@ -54,7 +54,7 @@
                 <p>Again, the benefit was not for the user.</p>
                 <p>So the concepts of CSS preprocessing and Javascript transpiling died away.</p>
                 <p>It was clear that the gains for the <em>makers</em> were pointless if they weren't also providing gains to the ecosystem they lived in.</p>
-                <p itemprop="author">Stephen Farrugia</p>
+                <p itemprop="author"><a href="mailto:sfarrugia@gmail.com">Stephen Farrugia</a></p>
 
             </main>
         </article>
