@@ -1,0 +1,46 @@
+:root {
+  font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+  background-color: #FFFFFF;
+  color: #333333;
+  font-size: 22px;
+  line-height: 1.4;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: inherit;
+}
+h1 {
+  font-weight: normal;
+  font-size: 2.6rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+time {
+  font-size: 0.5rem;
+}
+header {
+  margin-bottom: 1.8rem;
+  background-color: #333333;
+  padding: 1.8rem;
+  color: #ffffff;
+}
+main {
+  padding: 0 1.8rem 1.8rem;
+  max-width: 28rem;
+}
+[itemprop="author"]::before {
+  content: 'By ';
+}
+[itemprop="author"] {
+  font-size: 0.5rem;
+}
+
+hr {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: currentColor;
+}
