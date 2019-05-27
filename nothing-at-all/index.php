@@ -31,7 +31,7 @@
                 <p>What would my world be like without this?</p>
                 <p>Big ideas and small ideas</p>
                 <p>They all must pass this test</p>
-                <p>It’s easy to say they would change something</p>
+                <p>It’s easy to say they <em>could</em> change <em>something</em></p>
                 <p>but how important is that change?</p>
                 <p>And if you weren’t to do it, what could you do in its place?</p>
                 <p>Something different</p>
