@@ -33,7 +33,7 @@
                 <p>They all must pass this test</p>
                 <p>It’s easy to say they <em>could</em> change <em>something</em></p>
                 <p>but how important is that change?</p>
-                <p>And if you weren’t to do it, what could you do in its place?</p>
+                <p>And if I weren’t to do it, what could I do in its place?</p>
                 <p>Something different</p>
                 <p>Or nothing at all</p>
                 <p itemprop="author"><a href="mailto:sfarrugia@gmail.com">Stephen Farrugia</a></p>
