@@ -30,7 +30,7 @@
             <main>
                 <p>Asking a person to attest to their activity every time they do something is always going to make a process slower and more complicated.</p>
                 <p>The fix is to design the software so the attestations are automated and invisible.</p>
-                <p>Now the person is unaware of the weight of their actions and the subject of a surveillance system.</p>
+                <p>The unfortunate outcome of this is a person unaware of the weight of their actions and the subject of a surveillance system.</p>
                 <hr>
                 <p>Immutability is not a human goal, it is a goal of an enforcement mechanism.</p>
                 <hr>
