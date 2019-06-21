@@ -25,7 +25,7 @@
         <article itemscope itemtype="http://schema.org/BlogPosting">
             <header>
                 <h1 itemprop="title">Nothing at all</h1>
-                <time itemprop="dateCreated pubdate datePublished" datetime="2019-05-27" hidden>May 27, 2019</time>
+                <time itemprop="dateCreated pubdate datePublished" datetime="2019-05-27">May 27, 2019</time>
             </header>
             <main>
                 <p>What would my world be like without this?</p>

@@ -25,7 +25,7 @@
         <article itemscope itemtype="http://schema.org/BlogPosting">
             <header>
                 <h1 itemprop="title">Notes on trust</h1>
-                <time itemprop="dateCreated pubdate datePublished" datetime="2019-05-06" hidden>May 6, 2019</time>
+                <time itemprop="dateCreated pubdate datePublished" datetime="2019-05-06">May 6, 2019</time>
             </header>
             <main>
                 <p>Asking a person to attest to their activity every time they do something is always going to make a process slower and more complicated.</p>

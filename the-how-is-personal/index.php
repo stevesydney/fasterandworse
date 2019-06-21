@@ -25,7 +25,7 @@
         <article itemscope itemtype="http://schema.org/BlogPosting">
             <header>
                 <h1 itemprop="title">The how is personal</h1>
-                <time itemprop="dateCreated pubdate datePublished" datetime="2019-03-27" hidden>March 27, 2019</time>
+                <time itemprop="dateCreated pubdate datePublished" datetime="2019-03-27">March 27, 2019</time>
             </header>
             <main>
                 <p>Deadlines are important but trust makes the difference.</p>

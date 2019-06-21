@@ -26,7 +26,7 @@
             <article itemscope itemtype="http://schema.org/BlogPosting">
                 <header>
                     <h1 itemprop="title">Trust in the process, it's worth the wait</h1>
-                    <time itemprop="dateCreated pubdate datePublished" datetime="2019-03-26" hidden>March 26, 2019</time>
+                    <time itemprop="dateCreated pubdate datePublished" datetime="2019-03-26">March 26, 2019</time>
                 </header>
                 <main>
                     <p>Done is not better than perfect.</p>

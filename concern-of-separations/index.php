@@ -25,7 +25,7 @@
         <article itemscope itemtype="http://schema.org/BlogPosting">
             <header>
                 <h1 itemprop="title">Concern of separations</h1>
-                <time itemprop="dateCreated pubdate datePublished" datetime="2019-02-15" hidden>February 15, 2019</time>
+                <time itemprop="dateCreated pubdate datePublished" datetime="2019-02-15">February 15, 2019</time>
             </header>
             <main>
                 <p>In a parallel universe there are two key differences to the one we're living in now.</p>
