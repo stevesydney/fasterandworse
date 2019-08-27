@@ -1,7 +1,7 @@
 :root {
   font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
-  background-color: #FFFFFF;
-  color: #000000;
+  background-color: #333333;
+  color: #ffffff;
   font-size: 22px;
   line-height: 1.4;
 }
@@ -26,7 +26,6 @@ header {
   margin-bottom: 1.8rem;
   background-color: #000000;
   padding: 1.8rem;
-  color: #ffffff;
 }
 main {
   padding: 0 1.8rem 1.8rem;
