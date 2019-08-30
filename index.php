@@ -5,10 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Faster and worse</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#3F3E4E">
         <meta name="author" content="Stephen Farrugia">
-        <meta name="Description" content="Stephen Farrugia's articles about creativity">
-        <meta name="Keywords" content="Stephen Farrugia, Steve Farrugia, creativity, strategy, thinking, design, technology">
+        <meta name="Description" content="Stephen's writing">
         <link href="/main.css" rel="stylesheet" type="text/css" media="all" />
     </head>
     <body>
