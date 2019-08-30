@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Faster and worse | The how is personal</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#EDEDEF">
         <meta name="author" content="Stephen Farrugia">
         <meta name="Title" content="The how is personal">
         <meta name="Description" content="Deadlines are important but trust makes the difference.">
@@ -23,17 +22,13 @@
     </head>
     <body>
         <article itemscope itemtype="http://schema.org/BlogPosting">
-            <header>
-                <h1 itemprop="title">The how is personal</h1>
-                <time itemprop="dateCreated pubdate datePublished" datetime="2019-03-27">March 27, 2019</time>
-            </header>
-            <main>
-                <p>Deadlines are important but trust makes the difference.</p>
-                <p>When someone trusts you to deliver, your only responsibility is to deliver.</p>
-                <p>The weight of the trust lays in your claim. You have to be very specific about what you will deliver. Articulate the smallest outputs of the mechanisms you are creating.</p>
-                <p>This leaves you open to creativity while holding you to your claim.</p>           
-                <p itemprop="author"><a href="mailto:sfarrugia@gmail.com">Stephen Farrugia</a></p>
-            </main> 
+            <h1 itemprop="title">The how is personal</h1>
+            <p>Deadlines are important but trust makes the difference.</p>
+            <p>When someone trusts you to deliver, your only responsibility is to deliver.</p>
+            <p>The weight of the trust lays in your claim. You have to be very specific about what you will deliver. Articulate the smallest outputs of the mechanisms you are creating.</p>
+            <p>This leaves you open to creativity while holding you to your claim.</p>
+            <hr>
+            <p><time itemprop="dateCreated pubdate datePublished" datetime="2019-03-27">March 27, 2019</time></p>
         </article>
     </body>
 </html>

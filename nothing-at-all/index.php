@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Faster and worse | Nothing at all</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#EDEDEF">
         <meta name="author" content="Stephen Farrugia">
         <meta name="Title" content="Nothing at all">
         <meta name="Description" content="What would my world be like without this?">
@@ -23,21 +22,17 @@
     </head>
     <body>
         <article itemscope itemtype="http://schema.org/BlogPosting">
-            <header>
-                <h1 itemprop="title">Nothing at all</h1>
-                <time itemprop="dateCreated pubdate datePublished" datetime="2019-05-27">May 27, 2019</time>
-            </header>
-            <main>
-                <p>What would my world be like without this?</p>
-                <p>Big ideas and small ideas</p>
-                <p>They all must pass this test</p>
-                <p>It’s easy to say they <em>could</em> change <em>something</em></p>
-                <p>but how important is that change?</p>
-                <p>And if I weren’t to do it, what could I do in its place?</p>
-                <p>Something different</p>
-                <p>Or nothing at all</p>
-                <p itemprop="author"><a href="mailto:sfarrugia@gmail.com">Stephen Farrugia</a></p>
-            </main> 
+            <h1 itemprop="title">Nothing at all</h1>
+            <p>What would my world be like without this?</p>
+            <p>Big ideas and small ideas</p>
+            <p>They all must pass this test</p>
+            <p>It’s easy to say they <em>could</em> change <em>something</em></p>
+            <p>but how important is that change?</p>
+            <p>And if I weren’t to do it, what could I do in its place?</p>
+            <p>Something different</p>
+            <p>Or nothing at all</p>
+            <hr>
+            <p><time itemprop="dateCreated pubdate datePublished" datetime="2019-05-27">May 27, 2019</time></p>
         </article>
     </body>
 </html>
