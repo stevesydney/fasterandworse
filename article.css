@@ -1,7 +1,7 @@
 :root {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 14px;
-  line-height: 1.6;
+  line-height: 1.8;
   background-color: rgba(255, 255, 255, 1);
   color: rgba(0, 0, 0, 1);
   text-rendering: optimizeLegibility;
@@ -14,6 +14,15 @@ body {
   margin-right: 1.8rem;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.4;
+}
+
+h1,
 h2,
 h3,
 h4,
@@ -22,7 +31,9 @@ h6,
 p,
 ul,
 ol,
-dl {
+dl,
+hr,
+blockquote {
   max-width: 36rem;
 }
 
@@ -32,8 +43,20 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figcaption,
+blockquote > footer,
+th,
+td {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -60,6 +83,25 @@ h6 {
   font-size: 1rem;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+dd,
+blockquote,
+code,
+table,
+hr,
+picture,
+figure {
+  margin-top: 0;
+  margin-bottom: 0.8em;
+}
+
 p,
 li,
 dd {
@@ -69,13 +111,67 @@ dd {
   hyphens: auto;
 }
 
+hr,
+figure,
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+hr {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+picture,
+figure,
+img,
+code {
+  display: block;
+}
+
+picture,
+code,
+.scrollable {
+  overflow: auto;
+}
+
+figcaption,
+blockquote > footer,
+code,
+th,
+td {
+  font-size: 0.8rem;
+}
+
+blockquote {
+  box-sizing: border-box;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+}
+
+blockquote > p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+blockquote > p:last-of-type {
+  margin-bottom: 0;
+}
+
+cite {
+  font-style: normal;
+}
+
 ol,
 ul {
-  padding-left: 1.6em;
+  padding-left: 1.6rem;
 }
 
 dd {
-  margin-left: 0;
+  margin-left: 1.6rem;
 }
 
 code {
@@ -85,10 +181,7 @@ code {
   -moz-hyphens: none;
   hyphens: none;
   white-space: pre;
-  display: block;
   color: rgba(0, 0, 0, 0.7);
-  font-size: 0.8rem;
-  overflow: auto;
   padding: 0;
 }
 
@@ -98,19 +191,14 @@ table {
   empty-cells: hide;
 }
 
-th,
-td {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-align: left;
-  font-size: 0.8rem;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  padding-right: 0.5em;
+th {
+  font-weight: 600;
 }
 
-th:not(:first-child),
-td:not(:first-child) {
-  padding-left: 0.5em;
+th,
+td {
+  text-align: left;
+  padding: 0.5em;
 }
 
 tbody tr:first-child td {
