@@ -1,4 +1,4 @@
 ---
 layout: index.liquid
-title: Faster andworse
+title: Faster and worse
 ---
