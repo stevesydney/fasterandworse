@@ -32,14 +32,6 @@
   line-height: 1.3;
 }
 
-@media (min-width: 400px) {
-  :root {
-    --gutter: 2rem;
-    --margin: 1rem;
-    font-size: 18px;
-  }
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --colour-bg-base: rgba(51,51,51,1);
@@ -136,6 +128,8 @@ h6 {
 }
 
 body {
+  margin-left: 40px;
+  margin-right: 40px;
   margin-left: var(--gutter);
   margin-right: var(--gutter);
 }
