@@ -8,11 +8,11 @@
 }
 
 :root {
-  --colour-link: $colour-link;
-  --colour-link-hover: $colour-link-hover;
-  --colour-link-focus: $colour-link-focus;
-  --colour-link-visited: $colour-link-visited;
-  --colour-link-active: $colour-link-active;
+  --colour-link: #{$colour-link};
+  --colour-link-hover: #{$colour-link-hover};
+  --colour-link-focus: #{$colour-link-focus};
+  --colour-link-visited: #{$colour-link-visited};
+  --colour-link-active: #{$colour-link-active};
 
   font-family: Times, "Times New Roman", serif;
   font-size: 16px;
@@ -21,7 +21,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
 article {
@@ -252,17 +252,11 @@ img {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --colour-bg-base: rgba(51,51,51,1);
-    --colour-bg-medium: rgba(34,34,34,1);
-    --colour-bg-dark: rgba(0,0,0,1);
-    --colour-fg-base: rgba(238,238,238,1);
-    --colour-fg-light: rgba(238,238,238,0.8);
-    --colour-fg-super-light: rgba(238,238,238,0.1);
-    --colour-link: hsl(359,68%,80%);
-    --colour-link-hover: hsl(359,68%,80%);
-    --colour-link-focus: hsl(359,68%,90%);
-    --colour-link-visited: hsl(359,68%,70%);
-    --colour-link-active: hsl(359,68%,95%);
+    --colour-link: #{$dark-colour-link};
+    --colour-link-hover: #{$dark-colour-link-hover};
+    --colour-link-focus: #{$dark-colour-link-focus};
+    --colour-link-visited: #{$dark-colour-link-visited};
+    --colour-link-active: #{$dark-colour-link-active};
 
     background-color: $dark-colour-bg-base;
     color: $dark-colour-fg-base;
