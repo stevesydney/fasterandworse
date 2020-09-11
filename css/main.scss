@@ -1,28 +1,9 @@
 @import 'normalise';
 @import 'vars';
+@import 'css-vars';
 
-*,
-::before,
-::after {
-  box-sizing: border-box;
-}
-
-:root {
-  --colour-link: #{$colour-link};
-  --colour-link-hover: #{$colour-link-hover};
-  --colour-link-focus: #{$colour-link-focus};
-  --colour-link-visited: #{$colour-link-visited};
-  --colour-link-active: #{$colour-link-active};
-
-  font-family: Times, "Times New Roman", serif;
-  font-size: 16px;
-  background-color: $colour-bg-base;
-  color: $colour-fg-base;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  line-height: 1.4;
-}
+@import 'root';
+@import 'all';
 
 article {
   margin-bottom: 3rem;
@@ -251,17 +232,6 @@ img {
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --colour-link: #{$dark-colour-link};
-    --colour-link-hover: #{$dark-colour-link-hover};
-    --colour-link-focus: #{$dark-colour-link-focus};
-    --colour-link-visited: #{$dark-colour-link-visited};
-    --colour-link-active: #{$dark-colour-link-active};
-
-    background-color: $dark-colour-bg-base;
-    color: $dark-colour-fg-base;
-  }
-
   hr {
     background-color: $dark-colour-fg-super-light;
   }
@@ -294,9 +264,6 @@ img {
 }
 
 @media (min-width: 400px) {
-  :root {
-    font-size: 18px;
-  }
 
   hr {
     margin-top: $large-gutter;
