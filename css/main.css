@@ -182,10 +182,10 @@ blockquote > p:last-of-type {
 }
 
 cite {
+  display: block;
   font-family: var(--font-sans-serif);
   color: var(--colour-fg-light);
-  padding-top: 1em;
-  padding-bottom: 1rem;
+  padding-top: var(--margin);
   font-style: normal;
   font-size: 0.7rem;
 }
@@ -245,10 +245,11 @@ img {
 }
 
 .masthead {
-  /* border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: var(--colour-fg-super-light); */
   padding-top: var(--gutter);
+}
+
+.site-footer {
+  margin-bottom: var(--gutter);
 }
 
 .article-header {
@@ -267,6 +268,29 @@ img {
 }
 
 .copyright {
-  font-size: 0.7rem;
+  font-family: var(--font-sans-serif);
+  font-size: 0.5rem;
   opacity: 0.7;
+  margin-bottom: 0;
+}
+
+.twitter {
+  font-family: var(--font-sans-serif);
+  font-size: 0.5rem;
+  margin-bottom: var(--margin);
+}
+
+@media (min-width: 400px) {
+  :root {
+    --gutter: 2rem;
+    --margin: 1rem;
+    font-size: 18px;
+  }
+  .site-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .twitter {
+    margin-bottom: 0;
+  }
 }

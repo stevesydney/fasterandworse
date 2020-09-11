@@ -5,12 +5,13 @@ layout: layouts/base.liquid
 {% for post in postslist %}
   {% unless post.data.draft %}
   <article>
-    <header>
-      <h1><a href="{{ post.url | url }}">{{ post.data.title }}</a> {{ status }}</h1>
+    <header class="article-header">
+      <h1 class="article-title"><a href="{{ post.url | url }}">{{ post.data.title }}</a> {{ status }}</h1>
       <time datetime="{{ post.date | htmlDateString }}" itemprop="dateCreated pubdate datePublished">
         {{ post.date | date: "%B %e, %Y" }}
       </time>
     </header>
+    <p>{{ post.data.excerpt }}</p>
   </article>
   {% endunless %}
 {% endfor %}
