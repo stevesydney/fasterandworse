@@ -270,62 +270,18 @@ img {
     margin-bottom: $large-gutter;
   }
   
-  h1 {
-    margin-bottom: $large-margin;
-  }
-  
-  h2 {
-    margin-bottom: $large-margin;
-  }
-  
-  h3 {
-    margin-bottom: $large-margin;
-  }
-  
-  h4 {
-    margin-bottom: $large-margin;
-  }
-  
-  h5 {
-    margin-bottom: $large-margin;
-  }
-  
-  h6 {
-    margin-bottom: $large-margin;
-  }
-  
   body {
     margin-left: $large-gutter;
     margin-right: $large-gutter;
   }
   
-  p {
-    margin-bottom: $large-margin;
-  }
-  
-  ul {
-    margin-bottom: $large-margin;
-  }
-  ol {
-    margin-bottom: $large-margin;
-  }
-  
   li {
-    margin-bottom: ($large-margin / 2);
+    margin-bottom: ($margin / 2);
   }
   
   blockquote {
     padding-left: $large-gutter;
     padding-right: $large-gutter;
-    margin-bottom: $large-margin;
-  }
-  
-  cite {
-    padding-top: $large-margin;
-  }
-  
-  figcaption {
-    padding-top: $large-margin;
   }
   
   .masthead {
@@ -334,13 +290,5 @@ img {
   
   .site-footer {
     margin-bottom: $large-gutter;
-  }
-  
-  .article-header {
-    margin-bottom: $large-margin;
-  }
-  
-  .twitter {
-    margin-bottom: $large-margin;
   }
 }
