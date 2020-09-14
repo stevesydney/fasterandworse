@@ -9,6 +9,11 @@
       font-size: 0.6rem;
       margin-bottom: $margin / 2;
       text-align: right;
+      &.current::before {
+        opacity: 0.5;
+        content: '\025CB';
+        margin-right: 1em;
+      }
     }
   }
 }
