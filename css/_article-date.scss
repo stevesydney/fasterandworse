@@ -3,6 +3,7 @@
   color: $colour-fg-light;
   display: block;
   font-size: 0.6rem;
+  margin-bottom: $margin / 2;
 }
 
 @media (prefers-color-scheme: dark) {
