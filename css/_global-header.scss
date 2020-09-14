@@ -1,0 +1,11 @@
+.global-header {
+  padding-top: $gutter;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 400px) { 
+  .global-header {
+    padding-top: $large-gutter;
+  }
+}

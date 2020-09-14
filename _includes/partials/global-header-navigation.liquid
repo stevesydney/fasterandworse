@@ -1,0 +1,8 @@
+{% assign sitePages = collections.pages | eleventyNavigation %}
+<nav class="global-header-navigation">
+  <ul>
+    {% for sitePage in sitePages %}
+      <li class="global-header-navigation-item{% if sitePage.url == page.url %} global-header-navigation-item--active{% endif %}"><a href="{{ sitePage.url | url }}">{{ sitePage.data.eleventyNavigation.key }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

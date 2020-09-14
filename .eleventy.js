@@ -1,9 +1,18 @@
 const pluginSass = require("eleventy-plugin-sass");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const sassPluginOptions = {
   sourcemaps: true
 };
 module.exports = eleventyConfig => {
+  // Plug-ins
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(pluginSass, sassPluginOptions);
+
+  // Liquid options
+  eleventyConfig.setLiquidOptions({
+    dynamicPartials: true
+  });
+
   eleventyConfig.setTemplateFormats([
     "md",
     "html"

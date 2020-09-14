@@ -1,5 +1,5 @@
 {
-  "layout": "layouts/post.liquid",
+  "layout": "layouts/article.liquid",
   "tags": [
     "posts"
   ]

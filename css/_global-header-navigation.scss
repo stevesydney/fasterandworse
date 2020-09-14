@@ -1,0 +1,14 @@
+.global-header-navigation {
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+    li {
+      font-family: $font-sans-serif;
+      font-size: 0.6rem;
+      margin-bottom: $margin / 2;
+      text-align: right;
+    }
+  }
+}

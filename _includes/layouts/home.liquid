@@ -4,14 +4,6 @@ layout: layouts/base.liquid
 {% assign postslist = collections.posts | reverse %}
 {% for post in postslist %}
   {% unless post.data.draft %}
-  <article>
-    <header class="article-header">
-      <h1 class="article-title"><a href="{{ post.url | url }}">{{ post.data.title }}</a> {{ status }}</h1>
-      <time datetime="{{ post.date | htmlDateString }}" itemprop="dateCreated pubdate datePublished">
-        {{ post.date | date: "%B %e, %Y" }}
-      </time>
-    </header>
-    <p>{{ post.data.excerpt }}</p>
-  </article>
+    {% include 'partials/article-list-item' excerpt: post.data.excerpt %}
   {% endunless %}
 {% endfor %}
