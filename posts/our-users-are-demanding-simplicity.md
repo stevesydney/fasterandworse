@@ -2,16 +2,14 @@
 title: Our users are demanding simplicity
 excerpt: There has been a lot of discussion around Apple's decisions to exclude Flash support from the iPhone and iPad devices, and their reasons for doing so.
 author: Stephen Farrugia
+date: 2010-04-12T09:06:03+0000
 ---
 There has been a lot of discussion around Apple's decisions to exclude Flash support from the iPhone and iPad devices, and their reasons for doing so.
 
 The ever-evolving nature of the web means that technologies will change, but in web design, the user experience should remain priority. It's not about which technology we choose, it’s how well we deliver our content to the broadest audience possible.
 
 ## Browser compatibility and the Flash plugin are the least of our concerns.
-### Hello world
-#### Hello world
-##### Hello world
-###### Hello world
+
 Web design has always been about browsers, minimum screen resolutions and optimising for download speed.
 
 That's all changed. Screens are both bigger and smaller, they are in landscape or portrait format, navigated by mouse or touch, and they are on a powerful MacBook Pro, or a not-so-powerful Asus Eee PC.

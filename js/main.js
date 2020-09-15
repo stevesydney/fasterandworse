@@ -6,9 +6,9 @@
     if (dark.matches) return darkScheme;
     return lightScheme;
   }
-  root.style.setProperty('--colour-link', `hsl(${hue},68%,${luminosity('80%', '30%')})`);
-  root.style.setProperty('--colour-link-hover', `hsl(${hue},68%,${luminosity('80%', '30%')})`);
-  root.style.setProperty('--colour-link-focus', `hsl(${hue},68%,${luminosity('90%', '20%')})`);
-  root.style.setProperty('--colour-link-visited', `hsl(${hue},68%,${luminosity('70%', '40%')})`);
+  root.style.setProperty('--colour-link', `hsl(${hue},68%,${luminosity('85%', '30%')})`);
+  root.style.setProperty('--colour-link-hover', `hsl(${hue},68%,${luminosity('85%', '30%')})`);
+  root.style.setProperty('--colour-link-focus', `hsl(${hue},68%,${luminosity('95%', '20%')})`);
+  root.style.setProperty('--colour-link-visited', `hsl(${hue},68%,${luminosity('75%', '40%')})`);
   root.style.setProperty('--colour-link-active', `hsl(${hue},68%,${luminosity('95%', '10%')})`);
 })();

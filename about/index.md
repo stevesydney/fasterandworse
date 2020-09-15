@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.liquid
 title: About
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 tags:
   - pages
 eleventyNavigation:

@@ -1,11 +1,5 @@
 .global-header {
-  padding-top: $gutter;
+  padding-top: $margin * 2;
   display: flex;
   justify-content: space-between;
-}
-
-@media (min-width: 400px) { 
-  .global-header {
-    padding-top: $large-gutter;
-  }
 }

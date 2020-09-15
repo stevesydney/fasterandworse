@@ -2,6 +2,7 @@
 title: All the article elements
 excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 author: Stephen Farrugia
+date: 2020-09-02
 ---
 A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit of a discourse in <a href="#!">writing dealing with a particular</a> point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.
 

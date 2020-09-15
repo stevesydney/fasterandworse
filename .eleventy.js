@@ -5,8 +5,8 @@ const sassPluginOptions = {
 };
 module.exports = eleventyConfig => {
   // Plug-ins
-  eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(pluginSass, sassPluginOptions);
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   // Liquid options
   eleventyConfig.setLiquidOptions({
