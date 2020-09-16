@@ -2,7 +2,8 @@
 title: Our users are demanding simplicity
 excerpt: There has been a lot of discussion around Apple's decisions to exclude Flash support from the iPhone and iPad devices, and their reasons for doing so.
 author: Stephen Farrugia
-date: 2010-04-12T09:06:03+0000
+date: 2010-04-12
+note: This article was originally published over 10 years ago <a href="https://web.archive.org/web/20100417072224/http://blog.fwdmovement.com.au/?p=37">here</a>.
 ---
 There has been a lot of discussion around Apple's decisions to exclude Flash support from the iPhone and iPad devices, and their reasons for doing so.
 
@@ -54,6 +55,6 @@ The current Flash support debate and the persistence of Internet Explorer 6 are 
 
 In the documentary _Objectified_,  Dan Formosa of NY product design agency Smart Design manages to sum it up brilliantly:
 
-"if we understand what the extremes are, the middle will take care of itself"
+> "if we understand what the extremes are, the middle will take care of itself"
 
-It's become harder for us to test our websites in a set of conditions that best represents our users. So we need to focus on the extremes. When we can make something beautiful that works on netbook as well as it works on a mac pro, we've done it right.
+It's become harder for us to test our websites in a set of conditions that best represents our users. So we need to focus on the extremes. When we can make something beautiful that works on netbook as well as it works on a Mac Pro, we've done it right.

@@ -1,9 +1,9 @@
 <h1 class="article-title">
-  {% if link %}
+  {% if link -%}
     <a href="{{ link | url }}">
       {{ title }}
     </a>
-  {% else %}
+  {%- else -%}
     {{ title }}
-  {% endif %}
+  {%- endif %}
 </h1>
