@@ -1,8 +1,6 @@
 ---
 layout: layouts/base.liquid
 ---
-{% include 'partials/global-header' %}
-{% include 'partials/global-hr' %}
 <main role="main">
   {%- assign postslist = collections.posts | reverse -%}
   {% for post in postslist -%}
