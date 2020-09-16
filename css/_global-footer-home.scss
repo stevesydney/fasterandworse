@@ -1,6 +1,9 @@
-.global-footer-twitter {
+.global-footer-home {
   font-family: $font-sans-serif;
   font-size: 0.8rem;
   margin-bottom: $margin;
   margin-top: 0;
+  &::before {
+    content: "\021A9"
+  }
 }

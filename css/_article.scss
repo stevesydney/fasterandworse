@@ -1,0 +1,9 @@
+.article {
+  padding-top: $gutter;
+}
+
+@media (min-width: 400px) {
+  .article {
+    padding-top: $large-gutter;
+  }
+}

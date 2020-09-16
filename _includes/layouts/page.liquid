@@ -1,7 +1,13 @@
 ---
 layout: layouts/base.liquid
 ---
-<article class="page">
-  {% include 'partials/page-header' %}
-  {% include 'partials/article-content' %}
-</article>
+{% include 'partials/global-header' %}
+{% include 'partials/global-hr' %}
+<main role="main">
+  <article class="page">
+    {% include 'partials/page-header' %}
+    {% include 'partials/article-content' %}
+  </article>
+</main>
+{% include 'partials/global-hr' %}
+{% include 'partials/global-footer' %}

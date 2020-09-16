@@ -1,11 +1,15 @@
 ---
 layout: layouts/base.liquid
 ---
-<article class="article">
-  {% include 'partials/article-header' %}
-  {% if note -%}
-    {% include 'partials/article-note' %}
-  {%- endif %}
-  {% include 'partials/article-content' %}
-  {% include 'partials/article-footer' %}
-</article>
+<main role="main">
+  <article class="article">
+    {% include 'partials/article-header' %}
+    {% if note -%}
+      {% include 'partials/article-note' %}
+    {%- endif %}
+    {% include 'partials/article-content' %}
+    {% include 'partials/article-footer' %}
+  </article>
+</main>
+{% include 'partials/global-hr' %}
+{% include 'partials/global-footer' %}

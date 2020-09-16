@@ -23,7 +23,11 @@ eleventyExcludeFromCollections: true
 		<link href="{{ absolutePostUrl }}"/>
 		<updated>{{ post.date | rssDate }}</updated>
 		<id>{{ absolutePostUrl }}</id>
-		<content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+		<summary>{{ post.data.excerpt }}</summary>
+		<content type="html">
+			{%- if post.data.note -%}{{ "<p>Note: " }}{{ post.data.note }}{{ "</p>" }}{%- endif -%}
+			{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+		</content>
 	</entry>
 	{%- endfor %}
 </feed>
