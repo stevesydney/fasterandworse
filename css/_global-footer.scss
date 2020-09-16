@@ -1,0 +1,8 @@
+.global-footer {
+  margin-bottom: $gutter;
+}
+@media (min-width: 400px) {
+  .global-footer {
+    margin-bottom: $large-gutter;
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "fasterandworse",
+  "version": "1.0.0",
+  "description": "Faster and Worse website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevesydney/fasterandworse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevesydney/fasterandworse/issues"
+  },
+  "homepage": "https://github.com/stevesydney/fasterandworse#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-navigation": "^0.1.6",
+    "@11ty/eleventy-plugin-rss": "^1.0.9",
+    "eleventy-plugin-sass": "^1.1.1"
+  }
+}
