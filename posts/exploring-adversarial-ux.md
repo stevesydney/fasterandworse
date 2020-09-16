@@ -4,6 +4,7 @@ excerpt: Do UX professionals uphold the interests of the users as their posture 
 author: Anuj Das Gupta and Stephen Farrugia
 date: 2020-09-15
 draft: true
+eleventyExcludeFromCollections: true
 ---
 
 Adversarial UX is UX which is only concerned in the interests of the user. This concern is not altered by the interests of the business. Negative business impact is no more avoided than positive business impact is pursued. This UX stance is interesting to explore because it is the practical application of the common UX posture we see in the community.
