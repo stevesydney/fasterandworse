@@ -25,8 +25,11 @@
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
-    <div class="page" role="document">
-      {{ content }}
+    <div class="base" role="document">
+      <main class="main-content" role="main">
+        {{ content }}
+      </main>
+      {% include 'partials/global-footer' %}
     </div>
     <script type="text/javascript" defer src="/js/main.js"></script>
   </body>

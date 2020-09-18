@@ -1,13 +1,7 @@
 ---
 layout: layouts/base.liquid
 ---
-<main role="main">
-  {%- assign postslist = collections.posts | reverse -%}
-  {% for post in postslist -%}
-    {%- unless post.data.draft -%}
-      {% include 'partials/article-list-item' excerpt: post.data.excerpt %}
-    {%- endunless -%}
-  {%- endfor %}
-</main>
-{% include 'partials/global-hr' %}
-{% include 'partials/global-footer' %}
+{%- assign postslist = collections.posts | reverse -%}
+{% for post in postslist -%}
+  {% include 'partials/article-list-item' excerpt: post.data.excerpt %}
+{%- endfor %}
