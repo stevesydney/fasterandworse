@@ -4,6 +4,8 @@ excerpt: There has been a lot of discussion around Apple's decisions to exclude 
 author: Stephen Farrugia
 date: 2010-04-12
 note: This article was originally published over 10 years ago on my <a href="https://web.archive.org/web/20100417072224/http://blog.fwdmovement.com.au/?p=37">archived website</a>.
+draft: true
+eleventyExcludeFromCollections: true
 ---
 There has been a lot of discussion around Apple's decisions to exclude Flash support from the iPhone and iPad devices, and their reasons for doing so.
 
