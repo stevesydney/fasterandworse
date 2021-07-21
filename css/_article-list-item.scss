@@ -1,6 +1,7 @@
 .article-list-item {
-  max-width: $max-readable-width;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: $margin * 2.5;
+  margin-bottom: var(--margin-large);
+}
+
+.article-list-item:last-child {
+  margin-bottom: 0;
 }

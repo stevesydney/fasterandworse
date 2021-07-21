@@ -1,30 +1,31 @@
 {
-  "name": "fasterandworse",
-  "version": "1.0.0",
-  "description": "Faster and Worse website",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "reset": "rm -rf ./_site && rm -rf ./node_modules",
-    "build:clean": "rm -rf ./_site && npx @11ty/eleventy",
-    "build": "npx @11ty/eleventy",
-    "serve": "npx @11ty/eleventy --serve"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stevesydney/fasterandworse.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/stevesydney/fasterandworse/issues"
-  },
-  "homepage": "https://github.com/stevesydney/fasterandworse#readme",
-  "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "@11ty/eleventy-navigation": "^0.1.6",
-    "@11ty/eleventy-plugin-rss": "^1.0.9",
-    "eleventy-plugin-sass": "^1.1.1"
-  }
+    "name": "Faster and Worse",
+    "version": "0.1",
+    "description": "Written by Stephen Farrugia",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "reset": "rm -rf ./_site && rm -rf ./node_modules",
+        "build:clean": "rm -rf ./_site && npx @11ty/eleventy",
+        "build": "npx @11ty/eleventy",
+        "serve": "npx @11ty/eleventy --serve"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Intropians/intropians.org.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Intropians/intropians.org/issues"
+    },
+    "homepage": "https://github.com/Intropians/intropians.org#readme",
+    "devDependencies": {
+        "@11ty/eleventy": "^0.11.0",
+        "@11ty/eleventy-navigation": "^0.1.6",
+        "@11ty/eleventy-plugin-rss": "^1.0.9",
+        "eleventy-plugin-sass": "^1.1.1",
+        "gulp": "^4.0.2"
+    }
 }
