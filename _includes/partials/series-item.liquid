@@ -1,0 +1,6 @@
+<article class="series-item">
+    {% include 'partials/series-item-title' title: item.data.title, url: item.url %}
+    {% if item.data.excerpt -%}
+        {% include 'partials/series-item-excerpt' excerpt: item.data.excerpt %}
+    {%- endif %}
+</article>

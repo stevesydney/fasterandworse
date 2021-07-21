@@ -1,0 +1,16 @@
+.global-logo {
+  font-family: var(--font-sans-serif);
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--colour-highlight);
+}
+
+a.global-logo__link {
+  &,
+  &:link,
+  &:visited,
+  &:hover,
+  &:active {
+    color: inherit;
+  }
+}

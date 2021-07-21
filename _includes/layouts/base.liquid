@@ -1,36 +1,40 @@
-{%- if title -%}
-  {%- assign pageTitle = title -%}
-{%- else -%}
-  {%- assign pageTitle = metadata.title -%}
-{%- endif -%}
-{%- if description -%}
-  {%- assign pageDescription = description -%}
-{%- else -%}
-  {%- assign pageDescription = metadata.description -%}
-{%- endif -%}
+{%- include 'variables/page_url' -%}
+{%- include 'variables/page_title' -%}
+{%- include 'variables/page_description' -%}
+{%- include 'variables/page_image' -%}
+{%- include 'variables/content_type' -%}
 <!doctype html>
 <html lang="en">
   <head>
+    <title>{{ page_title }}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ pageDescription }}">
-    {% if draft -%}
+    {%- if eleventyExcludeFromCollections -%}
     <meta name="robots" content="noindex">
     {%- endif %}
-    <title>{{ pageTitle }}</title>
+    <meta name="title" content="{{ page_title }}">
+    <meta name="description" content="{{ page_description }}">
+    {% include 'partials/meta-twitter-summary-card' %}
+    {% include 'partials/meta-open-graph' %}
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="preload" href="/fonts/Barlow-Regular.woff2" as="font" type="font/woff2" crossorigin> 
+    <link rel="preload" href="/fonts/Barlow-Bold.woff2" as="font" type="font/woff2" crossorigin> 
+    <link rel="preload" href="/fonts/Redaction-Regular.woff2" as="font" type="font/woff2" crossorigin> 
+    <link rel="preload" href="/fonts/Redaction-Italic.woff2" as="font" type="font/woff2" crossorigin> 
+    <link rel="preload" href="/fonts/Redaction-Bold.woff2" as="font" type="font/woff2" crossorigin> 
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
-    <div class="base" role="document">
+    <div role="document">
+      {% include 'partials/global-header' %}
       <main class="main-content" role="main">
         {{ content }}
       </main>
       {% include 'partials/global-footer' %}
     </div>
-    <script type="text/javascript" defer src="/js/main.js"></script>
+    <script async defer type="module" src="/js/main.js" charset="utf-8"></script>
   </body>
 </html>

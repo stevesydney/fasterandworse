@@ -1,6 +1,8 @@
 {
-  "layout": "layouts/article.liquid",
-  "tags": [
-    "posts"
-  ]
-}
+    "layout": "layouts/article.liquid",
+    "permalink": "/{{ title | slug }}/",
+    "tags": [
+      "posts"
+    ]
+  }
+  

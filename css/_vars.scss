@@ -1,33 +1,87 @@
-$colour-bg-base: rgb(250, 250, 250);
-$colour-bg-base-semi: rgba(250, 250, 250, 0.9);
-$colour-bg-medium: rgba(221,221,221,1);
-$colour-bg-dark: rgba(204,204,204,1);
-$colour-fg-base: rgba(51,51,51,1);
-$colour-fg-light: rgba(51,51,51,0.8);
-$colour-fg-super-light: rgba(51,51,51,0.1);
-$colour-link: hsl(359,68%,40%);
-$colour-link-hover: hsl(359,68%,40%);
-$colour-link-focus: hsl(359,68%,30%);
-$colour-link-visited: hsl(359,68%,60%);
-$colour-link-active: hsl(359,68%,20%);
+// https://coolors.co/170003-55000c-f2f2d9-adb262-69c14c
 
-$dark-colour-bg-base: rgba(51,51,51,1);
-$dark-colour-bg-base-semi: rgba(51,51,51,0.9);
-$dark-colour-bg-medium: rgba(34,34,34,1);
-$dark-colour-bg-dark: rgba(0,0,0,1);
-$dark-colour-fg-base: rgba(238,238,238,1);
-$dark-colour-fg-light: rgba(238,238,238,0.8);
-$dark-colour-fg-super-light: rgba(238,238,238,0.1);
-$dark-colour-link: hsl(359,68%,80%);
-$dark-colour-link-hover: hsl(359,68%,80%);
-$dark-colour-link-focus: hsl(359,68%,90%);
-$dark-colour-link-visited: hsl(359,68%,70%);
-$dark-colour-link-active: hsl(359,68%,95%);
+:root {
+    --max-readable-width: 34rem;
+    --max-content-width: 50rem;
+    --font-sans-serif: "Barlow", "Helvetica Neue", Helvetica, "Arimo", Arial, sans-serif;
+    --font-serif: "Redaction", "Times New Roman", "Tinos", Times, serif;
+    --gutter: 1rem;
+    --large-gutter: 2rem;
+    --margin-small: 0.3rem;
+    --margin: 1rem;
+    --margin-large: 2.5rem;
 
-$max-readable-width: 37.5rem;
-$font-sans-serif: "Helvetica Neue", Helvetica, "Arimo", Arial, sans-serif;
-$font-serif: "Times New Roman", "Tinos", Times, serif;
-$gutter: 1rem;
-$margin: 1rem;
+    --colour-highlight: rgb(0,0,0);
+    --colour-bg-base: rgb(230,230,230);
+    --colour-bg-base-mid: rgba(0,0,0,0.1);
+    --colour-fg-base: rgb(25,25,25);
+    --colour-link: rgb(25,25,25);
+    --colour-link-hover: rgb(25,25,25);
+    --colour-link-focus: var(--colour-highlight);
+    --colour-link-visited: rgb(25,25,25);
+    --colour-link-active: rgb(25,25,25);
 
-$large-gutter: 2rem;
+    --hyphens: none;
+    --text-align: left;
+    --body-font-family: var(--font-serif);
+    --body-font-size: 1rem;
+    --body-line-height: 1.6;
+    --link-decoration: underline;
+    --link-decoration-hover: none;
+}
+
+:root[data-theme-preference="dark"] {
+    --colour-highlight: rgb(255,255,255);
+    --colour-bg-base: rgb(25,25,25);
+    --colour-bg-base-mid: rgba(255,255,255,0.1);
+    --colour-fg-base: rgb(230,230,230);
+    --colour-link: rgb(230,230,230);
+    --colour-link-hover: rgb(230,230,230);
+    --colour-link-focus: var(--colour-highlight);
+    --colour-link-visited: rgb(230,230,230);
+    --colour-link-active: rgb(230,230,230);
+}
+
+:root[data-link-visibility-preference="hidden"] {
+    --link-decoration: none;
+    --link-decoration-hover: underline;
+}
+
+:root[data-text-alignment-preference="justify"] {
+    --hyphens: auto;
+    --text-align: justify;
+}
+
+:root[data-font-family-preference="sans-serif"] {
+    --body-font-family: var(--font-sans-serif);
+}
+
+:root[data-text-size-preference="medium"] {
+    --body-font-size: 1.5rem;
+}
+
+:root[data-text-size-preference="large"] {
+    --body-font-size: 2rem;
+}
+
+:root[data-text-line-height-preference="medium"] {
+    --body-line-height: 1.8;
+}
+
+:root[data-text-line-height-preference="large"] {
+    --body-line-height: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme-preference]) {
+        --colour-highlight: rgb(255,255,255);
+        --colour-bg-base: rgb(25,25,25);
+        --colour-bg-base-mid: rgba(255,255,255,0.1);
+        --colour-fg-base: rgb(230,230,230);
+        --colour-link: rgb(230,230,230);
+        --colour-link-hover: rgb(230,230,230);
+        --colour-link-focus: var(--colour-highlight);
+        --colour-link-visited: rgb(230,230,230);
+        --colour-link-active: rgb(230,230,230);
+    }
+}

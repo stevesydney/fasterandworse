@@ -1,7 +1,6 @@
 ---
 layout: layouts/base.liquid
 ---
-{%- assign postslist = collections.posts | reverse -%}
-{% for post in postslist -%}
-  {% include 'partials/article-list-item' excerpt: post.data.excerpt %}
-{%- endfor %}
+{%- if collections.posts -%}
+  {% include 'partials/series-container' series: collections.posts %}
+{%- endif -%}
