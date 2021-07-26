@@ -1,8 +1,10 @@
 .global-logo {
   font-family: var(--font-sans-serif);
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   color: var(--colour-highlight);
+  display: flex;
+  flex-direction: column;
 }
 
 a.global-logo__link {
