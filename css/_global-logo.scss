@@ -8,6 +8,8 @@
 }
 
 a.global-logo__link {
+  display: flex;
+  flex-direction: column;
   &,
   &:link,
   &:visited,
