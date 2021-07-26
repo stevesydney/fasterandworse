@@ -19,14 +19,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "dependencyTreeRoots": [
       {
-        "name": "Faster and Worse",
+        "name": "fasterandworse",
         "reference": "workspace:."
       }
     ],
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)|$))$)",
     "fallbackExclusionList": [
-      ["Faster and Worse", ["workspace:."]]
+      ["fasterandworse", ["workspace:."]]
     ],
     "fallbackPool": [
     ],
@@ -38,9 +38,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@11ty/eleventy", "npm:0.11.1"],
-            ["@11ty/eleventy-navigation", "virtual:89a9afd9ab360286e7d2c4041d73d671b042c65282a9a1f958bbb6b65548823a69189c1a84fb6df235de567251174e0098640809b6228ebb231ae206a05ce1c3#npm:0.1.6"],
-            ["@11ty/eleventy-plugin-rss", "virtual:89a9afd9ab360286e7d2c4041d73d671b042c65282a9a1f958bbb6b65548823a69189c1a84fb6df235de567251174e0098640809b6228ebb231ae206a05ce1c3#npm:1.0.9"],
-            ["eleventy-plugin-sass", "virtual:89a9afd9ab360286e7d2c4041d73d671b042c65282a9a1f958bbb6b65548823a69189c1a84fb6df235de567251174e0098640809b6228ebb231ae206a05ce1c3#npm:1.1.1"],
+            ["@11ty/eleventy-navigation", "virtual:bbfb296f79ade199b89a9b4220cc4d76fc2d6eca1f0345dd05fe333cd94cf62ed54df2501a3e6071ed64cd5f5bd675f7423c9e5dd271b23388390c4961a3571f#npm:0.1.6"],
+            ["@11ty/eleventy-plugin-rss", "virtual:bbfb296f79ade199b89a9b4220cc4d76fc2d6eca1f0345dd05fe333cd94cf62ed54df2501a3e6071ed64cd5f5bd675f7423c9e5dd271b23388390c4961a3571f#npm:1.0.9"],
+            ["eleventy-plugin-sass", "virtual:bbfb296f79ade199b89a9b4220cc4d76fc2d6eca1f0345dd05fe333cd94cf62ed54df2501a3e6071ed64cd5f5bd675f7423c9e5dd271b23388390c4961a3571f#npm:1.1.1"],
             ["gulp", "npm:4.0.2"]
           ],
           "linkType": "SOFT",
@@ -97,10 +97,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@11ty/eleventy-navigation", [
-        ["virtual:89a9afd9ab360286e7d2c4041d73d671b042c65282a9a1f958bbb6b65548823a69189c1a84fb6df235de567251174e0098640809b6228ebb231ae206a05ce1c3#npm:0.1.6", {
-          "packageLocation": "./.yarn/$$virtual/@11ty-eleventy-navigation-virtual-cc34b5a532/0/cache/@11ty-eleventy-navigation-npm-0.1.6-bc7432100e-010dbc9f96.zip/node_modules/@11ty/eleventy-navigation/",
+        ["virtual:bbfb296f79ade199b89a9b4220cc4d76fc2d6eca1f0345dd05fe333cd94cf62ed54df2501a3e6071ed64cd5f5bd675f7423c9e5dd271b23388390c4961a3571f#npm:0.1.6", {
+          "packageLocation": "./.yarn/$$virtual/@11ty-eleventy-navigation-virtual-87c7fb0c87/0/cache/@11ty-eleventy-navigation-npm-0.1.6-bc7432100e-010dbc9f96.zip/node_modules/@11ty/eleventy-navigation/",
           "packageDependencies": [
-            ["@11ty/eleventy-navigation", "virtual:89a9afd9ab360286e7d2c4041d73d671b042c65282a9a1f958bbb6b65548823a69189c1a84fb6df235de567251174e0098640809b6228ebb231ae206a05ce1c3#npm:0.1.6"],
+            ["@11ty/eleventy-navigation", "virtual:bbfb296f79ade199b89a9b4220cc4d76fc2d6eca1f0345dd05fe333cd94cf62ed54df2501a3e6071ed64cd5f5bd675f7423c9e5dd271b23388390c4961a3571f#npm:0.1.6"],
             ["@11ty/eleventy", "npm:0.11.1"],
             ["@types/11ty__eleventy", null],
             ["dependency-graph", "npm:0.8.1"]
@@ -113,10 +113,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@11ty/eleventy-plugin-rss", [
-        ["virtual:89a9afd9ab360286e7d2c4041d73d671b042c65282a9a1f958bbb6b65548823a69189c1a84fb6df235de567251174e0098640809b6228ebb231ae206a05ce1c3#npm:1.0.9", {
-          "packageLocation": "./.yarn/$$virtual/@11ty-eleventy-plugin-rss-virtual-eb463d5fed/0/cache/@11ty-eleventy-plugin-rss-npm-1.0.9-9c2a303440-5a7cc3d596.zip/node_modules/@11ty/eleventy-plugin-rss/",
+        ["virtual:bbfb296f79ade199b89a9b4220cc4d76fc2d6eca1f0345dd05fe333cd94cf62ed54df2501a3e6071ed64cd5f5bd675f7423c9e5dd271b23388390c4961a3571f#npm:1.0.9", {
+          "packageLocation": "./.yarn/$$virtual/@11ty-eleventy-plugin-rss-virtual-861099ec5b/0/cache/@11ty-eleventy-plugin-rss-npm-1.0.9-9c2a303440-5a7cc3d596.zip/node_modules/@11ty/eleventy-plugin-rss/",
           "packageDependencies": [
-            ["@11ty/eleventy-plugin-rss", "virtual:89a9afd9ab360286e7d2c4041d73d671b042c65282a9a1f958bbb6b65548823a69189c1a84fb6df235de567251174e0098640809b6228ebb231ae206a05ce1c3#npm:1.0.9"],
+            ["@11ty/eleventy-plugin-rss", "virtual:bbfb296f79ade199b89a9b4220cc4d76fc2d6eca1f0345dd05fe333cd94cf62ed54df2501a3e6071ed64cd5f5bd675f7423c9e5dd271b23388390c4961a3571f#npm:1.0.9"],
             ["@11ty/eleventy", "npm:0.11.1"],
             ["@types/11ty__eleventy", null],
             ["debug", "virtual:919d4911b1e5ce2461299acfa5dc07da0ec1e38194152d358817207c30c47a53dfbda9c2f08fd63ccde8563e42f2145ae1bedab506dca551e52a499a987c5273#npm:4.3.1"],
@@ -212,20 +212,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/minimatch", "npm:3.0.3"]
           ],
           "linkType": "HARD",
-        }]
-      ]],
-      ["Faster and Worse", [
-        ["workspace:.", {
-          "packageLocation": "./",
-          "packageDependencies": [
-            ["Faster and Worse", "workspace:."],
-            ["@11ty/eleventy", "npm:0.11.1"],
-            ["@11ty/eleventy-navigation", "virtual:89a9afd9ab360286e7d2c4041d73d671b042c65282a9a1f958bbb6b65548823a69189c1a84fb6df235de567251174e0098640809b6228ebb231ae206a05ce1c3#npm:0.1.6"],
-            ["@11ty/eleventy-plugin-rss", "virtual:89a9afd9ab360286e7d2c4041d73d671b042c65282a9a1f958bbb6b65548823a69189c1a84fb6df235de567251174e0098640809b6228ebb231ae206a05ce1c3#npm:1.0.9"],
-            ["eleventy-plugin-sass", "virtual:89a9afd9ab360286e7d2c4041d73d671b042c65282a9a1f958bbb6b65548823a69189c1a84fb6df235de567251174e0098640809b6228ebb231ae206a05ce1c3#npm:1.1.1"],
-            ["gulp", "npm:4.0.2"]
-          ],
-          "linkType": "SOFT",
         }]
       ]],
       ["a-sync-waterfall", [
@@ -2281,15 +2267,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["eleventy-plugin-sass", [
-        ["virtual:89a9afd9ab360286e7d2c4041d73d671b042c65282a9a1f958bbb6b65548823a69189c1a84fb6df235de567251174e0098640809b6228ebb231ae206a05ce1c3#npm:1.1.1", {
-          "packageLocation": "./.yarn/$$virtual/eleventy-plugin-sass-virtual-4daffd766b/0/cache/eleventy-plugin-sass-npm-1.1.1-3d3ab2d381-cded6e8757.zip/node_modules/eleventy-plugin-sass/",
+        ["virtual:bbfb296f79ade199b89a9b4220cc4d76fc2d6eca1f0345dd05fe333cd94cf62ed54df2501a3e6071ed64cd5f5bd675f7423c9e5dd271b23388390c4961a3571f#npm:1.1.1", {
+          "packageLocation": "./.yarn/$$virtual/eleventy-plugin-sass-virtual-34f3501883/0/cache/eleventy-plugin-sass-npm-1.1.1-3d3ab2d381-cded6e8757.zip/node_modules/eleventy-plugin-sass/",
           "packageDependencies": [
-            ["eleventy-plugin-sass", "virtual:89a9afd9ab360286e7d2c4041d73d671b042c65282a9a1f958bbb6b65548823a69189c1a84fb6df235de567251174e0098640809b6228ebb231ae206a05ce1c3#npm:1.1.1"],
+            ["eleventy-plugin-sass", "virtual:bbfb296f79ade199b89a9b4220cc4d76fc2d6eca1f0345dd05fe333cd94cf62ed54df2501a3e6071ed64cd5f5bd675f7423c9e5dd271b23388390c4961a3571f#npm:1.1.1"],
             ["@11ty/eleventy", "npm:0.11.1"],
             ["@types/11ty__eleventy", null],
             ["chalk", "npm:2.4.2"],
             ["chokidar", "npm:3.4.3"],
-            ["gulp-autoprefixer", "virtual:4daffd766b14a56e2181f64785c5c8902d42ec7a530289d1dcb9fa8018736bf08c07b931652d45acec77dc877b0bead598f5b20816bb1168b5338607c475f322#npm:7.0.1"],
+            ["gulp-autoprefixer", "virtual:34f35018831cf9247a1371cb4f497af01516e34e49d45bddc9d8c98353258a045a0b5f13507c28fae27d37ab4a0eab323b3ac45c30782f7bf83c78a9cf8ec7e9#npm:7.0.1"],
             ["gulp-clean-css", "npm:4.3.0"],
             ["gulp-if", "npm:3.0.0"],
             ["gulp-sass", "npm:4.1.0"],
@@ -2738,6 +2724,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fast-levenshtein", "npm:1.1.4"]
           ],
           "linkType": "HARD",
+        }]
+      ]],
+      ["fasterandworse", [
+        ["workspace:.", {
+          "packageLocation": "./",
+          "packageDependencies": [
+            ["fasterandworse", "workspace:."],
+            ["@11ty/eleventy", "npm:0.11.1"],
+            ["@11ty/eleventy-navigation", "virtual:bbfb296f79ade199b89a9b4220cc4d76fc2d6eca1f0345dd05fe333cd94cf62ed54df2501a3e6071ed64cd5f5bd675f7423c9e5dd271b23388390c4961a3571f#npm:0.1.6"],
+            ["@11ty/eleventy-plugin-rss", "virtual:bbfb296f79ade199b89a9b4220cc4d76fc2d6eca1f0345dd05fe333cd94cf62ed54df2501a3e6071ed64cd5f5bd675f7423c9e5dd271b23388390c4961a3571f#npm:1.0.9"],
+            ["eleventy-plugin-sass", "virtual:bbfb296f79ade199b89a9b4220cc4d76fc2d6eca1f0345dd05fe333cd94cf62ed54df2501a3e6071ed64cd5f5bd675f7423c9e5dd271b23388390c4961a3571f#npm:1.1.1"],
+            ["gulp", "npm:4.0.2"]
+          ],
+          "linkType": "SOFT",
         }]
       ]],
       ["fastq", [
@@ -3311,10 +3311,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["gulp-autoprefixer", [
-        ["virtual:4daffd766b14a56e2181f64785c5c8902d42ec7a530289d1dcb9fa8018736bf08c07b931652d45acec77dc877b0bead598f5b20816bb1168b5338607c475f322#npm:7.0.1", {
-          "packageLocation": "./.yarn/$$virtual/gulp-autoprefixer-virtual-d560fa8839/0/cache/gulp-autoprefixer-npm-7.0.1-df5d77a701-eb794d21c2.zip/node_modules/gulp-autoprefixer/",
+        ["virtual:34f35018831cf9247a1371cb4f497af01516e34e49d45bddc9d8c98353258a045a0b5f13507c28fae27d37ab4a0eab323b3ac45c30782f7bf83c78a9cf8ec7e9#npm:7.0.1", {
+          "packageLocation": "./.yarn/$$virtual/gulp-autoprefixer-virtual-49c4117cdb/0/cache/gulp-autoprefixer-npm-7.0.1-df5d77a701-eb794d21c2.zip/node_modules/gulp-autoprefixer/",
           "packageDependencies": [
-            ["gulp-autoprefixer", "virtual:4daffd766b14a56e2181f64785c5c8902d42ec7a530289d1dcb9fa8018736bf08c07b931652d45acec77dc877b0bead598f5b20816bb1168b5338607c475f322#npm:7.0.1"],
+            ["gulp-autoprefixer", "virtual:34f35018831cf9247a1371cb4f497af01516e34e49d45bddc9d8c98353258a045a0b5f13507c28fae27d37ab4a0eab323b3ac45c30782f7bf83c78a9cf8ec7e9#npm:7.0.1"],
             ["@types/gulp", null],
             ["autoprefixer", "npm:9.8.6"],
             ["fancy-log", "npm:1.3.3"],

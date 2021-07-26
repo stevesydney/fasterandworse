@@ -151,18 +151,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"Faster and Worse@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "Faster and Worse@workspace:."
-  dependencies:
-    "@11ty/eleventy": ^0.11.0
-    "@11ty/eleventy-navigation": ^0.1.6
-    "@11ty/eleventy-plugin-rss": ^1.0.9
-    eleventy-plugin-sass: ^1.1.1
-    gulp: ^4.0.2
-  languageName: unknown
-  linkType: soft
-
 "a-sync-waterfall@npm:^1.0.0":
   version: 1.0.1
   resolution: "a-sync-waterfall@npm:1.0.1"
@@ -2402,6 +2390,18 @@ __metadata:
   checksum: cb08cd9e28c434ad7ee3e3853c795656e020cc803373c98437785162c6ec4bb49f6b6af14301e0275d63d249b121ed54647d19a1f7a753d98ee57c740db0d696
   languageName: node
   linkType: hard
+
+"fasterandworse@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "fasterandworse@workspace:."
+  dependencies:
+    "@11ty/eleventy": ^0.11.0
+    "@11ty/eleventy-navigation": ^0.1.6
+    "@11ty/eleventy-plugin-rss": ^1.0.9
+    eleventy-plugin-sass: ^1.1.1
+    gulp: ^4.0.2
+  languageName: unknown
+  linkType: soft
 
 "fastq@npm:^1.6.0":
   version: 1.9.0
