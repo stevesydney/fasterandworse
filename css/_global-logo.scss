@@ -1,8 +1,5 @@
 .global-logo {
-  font-family: var(--font-sans-serif);
-  font-weight: 400;
-  font-size: 0.6rem;
-  color: var(--colour-highlight);
+  color: var(--colour-fg-base);
   display: flex;
   flex-direction: column;
   align-items: center;
