@@ -12,15 +12,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Intropians/intropians.org.git"
+        "url": "git+https://github.com/stevesydney/fasterandworse"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Intropians/intropians.org/issues"
+        "url": "https://github.com/stevesydney/fasterandworse/issues"
     },
-    "homepage": "https://github.com/Intropians/intropians.org#readme",
+    "homepage": "https://github.com/stevesydney/fasterandworse#readme",
     "devDependencies": {
         "@11ty/eleventy": "^0.11.0",
         "@11ty/eleventy-navigation": "^0.1.6",

@@ -1,4 +1,4 @@
-# intropians.org
+# Faster and Worse
 The website
 
 best to use `yarn` as a package manager
