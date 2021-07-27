@@ -1,5 +1,5 @@
 <div class="series-container">
-{% for item in series -%}
+{% for item in series reversed -%}
     {% include 'partials/series-item' item %}
 {%- endfor %}
 </div>
