@@ -1,6 +1,6 @@
 ---
 title: Wanna help me make a new OS?
-excerpt: This is a sample article which contains all of the content element types so we can see how they all look.
+excerpt: I envision a new breed of operating system. An operating system that does... less
 author: Stephen Farrugia
 date: 2021-07-28
 draft: false
