@@ -14,10 +14,13 @@
     {%- endif %}
     <meta name="title" content="{{ page_title }}">
     <meta name="description" content="{{ page_description }}">
+    <meta name="theme-color" content="#444444">
     {% include 'partials/meta-twitter-summary-card' %}
     {% include 'partials/meta-open-graph' %}
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
     <link rel="preload" href="/fonts/Barlow-Regular.woff2" as="font" type="font/woff2" crossorigin> 
