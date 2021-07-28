@@ -67,6 +67,6 @@ I have experimented with proofs of concept using Ubuntu Core and X11 to boot int
 
 I do believe that this class of product can exist as software applied to existing, otherwise obsolete, hardware. At least to satisfy the like minded who prefer technology which is applied to doing one thing really well, and justified in how well it does that thing, not in how many other things it can do in addition. 
 
-Can you relate? Would you be interested in helping build an open-sourced DictionaryOS? Tweet me [@fasterandworse](https://twitter.com/fasterandworse) - I’d love to hear from you. [I've even created a blank slate repository for the project.](https://github.com/fasterandworse/DictionaryOS)
+Can you relate? Would you be interested in helping build an open-sourced DictionaryOS? Tweet me [@fasterandworse](https://twitter.com/fasterandworse) - I’d love to hear from you.
 
 *As far as mono-tasking operating systems, this is just the beginning. Imagine what you could do with an old laptop if you had a mono-tasking operating system designed for writing? A TypewriterOS. I have plenty more to say about that, so stay tuned.*
