@@ -45,19 +45,21 @@ In short there are options out there, even some with internet connectivity. But 
 
 To be clear, I am not naive to the fact that the smartphone is the reason for this situation. I know that a device which does so little *seems* like a step backwards. An unmarketable relic.
 
+In addition we don't need to be making more hardware, particularly for single-purpose applications such as this, considering the politics behind the manufacture of our smartphones and other devices.
+
 I can also acknowledge the redditor-like retort of "have you even heard of google?". A perfectly valid response in this world where the www is ubiquitous. Especially if you think everyone uses and reacts to technology in the same way.
 
 But does it mean my desire for this imaginary device is any less valid?
 
-This leads me to a concept which I’ve been throwing around for a while now. That is the idea of mono-tasking operating systems.
+It leads me to a concept which I’ve been throwing around for a while now. That is the idea of mono-tasking operating systems.
 
 Consider an operating system which is dedicated to one task, one application. In this case it would be dedicated to being a dictionary. Let’s call it DictionaryOS.
 
-Then, for example, consider an old smartphone. It has all the hardware, the computing power, and the connectivity needed to deliver the functionality of a dictionary.
+Then, for example, consider an old smartphone. It has all the hardware, the computing power, and the connectivity needed to deliver the functionality of a dictionary, and it has been rendered obsolete by modern operating systems which demand more than the hardware can provide.
 
-A dedicated operating system which can be installed on any device with a display, input method, internet connectivity to turn that thing into a dictionary.
+DictionaryOS can be installed on that smartphone, which almost certainly has an adequate display, input method, and internet connectivity, to turn it into a dedicated digital dictionary.
 
-If the operating system is designed and engineered from the ground up so that it is not doing anything which is unnecessary to its cause, it should, in theory, be efficient enough to work adequately on *any* device.
+If DictionaryOS is designed and engineered from the ground up so that it is not doing anything which is unnecessary to its cause, it should, in theory, be efficient enough to work on *any* device.
 
 But for now this is just an idea in my head.
 
