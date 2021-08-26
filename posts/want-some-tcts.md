@@ -1,7 +1,7 @@
 ---
 title: Hey man, want some TCTs?
 excerpt: Tech coping tools all have one thing in common - they want to help you be a better you. But there is something deeper and more worrying which they imply.
-author: Stephen Farrugia
+author: Steve
 date: 2021-07-27
 draft: false
 eleventyExcludeFromCollections: false

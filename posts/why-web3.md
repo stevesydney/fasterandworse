@@ -1,7 +1,7 @@
 ---
 title: Why Web3?
 excerpt: Why is crypto giving the web a seat at the table?
-author: Stephen Farrugia
+author: Steve
 date: 2021-08-26
 draft: false
 eleventyExcludeFromCollections: false

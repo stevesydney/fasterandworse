@@ -1,7 +1,7 @@
 ---
 title: Wanna help me make a new OS?
 excerpt: I envision a new breed of operating system. An operating system that does... less
-author: Stephen Farrugia
+author: Steve
 date: 2021-07-28
 draft: false
 eleventyExcludeFromCollections: false

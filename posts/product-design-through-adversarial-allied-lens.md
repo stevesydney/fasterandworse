@@ -1,7 +1,7 @@
 ---
 title: Exploring design through an adversarial/allied lens
 excerpt: Lately I’ve been thinking about products and product design through a lens of adversarial and allied intent. This lens asks if the thing in question is adversarial or allied to the consumer and, at the same time, if it is adversarial or allied to the business creating it.
-author: Stephen Farrugia
+author: Steve
 date: 2020-10-10
 draft: true
 eleventyExcludeFromCollections: true
