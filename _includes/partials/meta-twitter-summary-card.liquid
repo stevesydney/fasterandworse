@@ -6,5 +6,5 @@
     {% if page_image -%}
     <meta name="twitter:image" content="{{ page_image }}">
     {%- else -%}
-    <meta name="twitter:image" content="/images/logo-open-graph.png">
+    <meta name="twitter:image" content="{{ metadata.url }}/images/logo-open-graph.png">
     {%- endif %}

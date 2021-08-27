@@ -5,5 +5,5 @@
     {%- if page_image %}
     <meta property="og:image" content="{{ page_image }}">
     {%- else -%}
-    <meta property="og:image" content="/images/logo-open-graph.png">
+    <meta property="og:image" content="{{ metadata.url }}/images/logo-open-graph.png">
     {% endif -%}
