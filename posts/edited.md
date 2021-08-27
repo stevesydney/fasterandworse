@@ -9,9 +9,9 @@ eleventyExcludeFromCollections: false
 ---
 “edited” - the label which appears beneath an edited Telegram message.
 
-It wasn’t obvious to me why this feature bothers me, frustrates me even. This is, in part, due to how easy it is to think of reasons why this label is a good thing. 
+It wasn’t obvious to me why this feature bothers me, frustrates me even. In part, this is due to how easy it is to think of reasons why this label is a good thing. 
 
-This is part of, let’s say, a matrix of frustrations in tech design which, when I think about them deeply, reveal a political side that their surface of convenience conceals.
+This is part of a matrix of frustrations in tech design which, when I think about them deeply, reveal a political side that their surface of convenience conceals.
 
 Consider the way any modern communication app indicates that the person on the other end is typing a message, has received a message, or has opened it. When you are online or when you were last online and the “edited” label, these things are the new norm. These on-by-default *things* add meta social information to the content we send.
 
