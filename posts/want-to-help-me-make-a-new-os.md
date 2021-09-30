@@ -1,6 +1,6 @@
 ---
 title: Wanna help me make a new OS?
-excerpt: I envision a new breed of operating system. An operating system that does... less
+excerpt: I envision a new breed of operating system. An operating system that does less.
 author: Steve
 date: 2021-07-28
 draft: false

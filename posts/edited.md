@@ -1,6 +1,6 @@
 ---
-title: Edited
-excerpt: This was edited many times before and after I published it
+title: Behavioural skeuomorphism
+excerpt: When technology tells us how to be.
 author: Steve
 image: "/images/edited.png"
 date: 2021-08-27
